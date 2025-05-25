@@ -86,7 +86,7 @@ applicant = {
 }
 
 if st.button("Dự đoán khả năng cho vay"):
-    applicant["BankruptcyHistory"] = 1 if applicant["BankruptcyHistory"] == "Có" else 0
+    applicant["BankruptcyHistory"] = 1 if applicant["BankruptcyHistory"] == "Yes" else 0
     
     input_df = pd.DataFrame([applicant])
     input_num = input_df[num_features]
