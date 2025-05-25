@@ -82,7 +82,7 @@ applicant = {
     "EducationLevel": st.sidebar.selectbox("Education Level", ["High School", "Associate", "Bachelor", "Master", "Doctorate"]),
     "HomeOwnershipStatus": st.sidebar.selectbox("Home Ownership Status", ["Rent", "Own", "Mortgage", "Other"]),
     "LoanPurpose": st.sidebar.selectbox("Loan Purpose", ["Auto", "Home", "Debt Consolidation", "Education", "Other"]),
-    "BankruptcyHistory": st.sidebar.selectbox ("BankruptcyHistory", ["Có", "Không"])
+    "BankruptcyHistory": st.sidebar.selectbox ("BankruptcyHistory", ["Yes", "No"])
 }
 
 if st.button("Dự đoán khả năng cho vay"):
